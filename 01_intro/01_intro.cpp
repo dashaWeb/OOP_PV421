@@ -87,10 +87,7 @@ public:
 		cout << "\t Date      :: "; cin >> this->date.day >> this->date.month >> this->date.year;
 	}
 
-	double averagePower(Car other)
-	{
-		return (this->power + other.power) / 2;
-	}
+	
 
 };
 
