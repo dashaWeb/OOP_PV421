@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8015c564-4dff-497c-9618-fa04a6fc45bd}</ProjectGuid>
-    <RootNamespace>My03overloadcontinue</RootNamespace>
+    <ProjectGuid>{1f0c12f4-9726-4430-884d-201363d509a3}</ProjectGuid>
+    <RootNamespace>My08friendsfunctionandclass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>05_overload_continue</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,11 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="03_overload_continue.cpp" />
-    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="08_friends function and class.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Pupil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
