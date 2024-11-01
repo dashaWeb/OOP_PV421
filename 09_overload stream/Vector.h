@@ -20,6 +20,8 @@ public:
 	int operator[](size_t index) const; // get
 	int& operator[](size_t index); // set
 	Vector operator()(size_t startIndex, size_t lastIndex) const;
+	
+
 	// 10 20 *30 *40 *50 60 70 80
 	// [2:4]
 

@@ -92,6 +92,9 @@ Vector Vector::operator()(size_t startIndex, size_t lastIndex) const
 	return tmp;
 }
 
+
+
+
 void Vector::pushBack(const int& value)
 {
 	if (size >= capacity)
