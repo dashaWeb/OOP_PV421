@@ -20,6 +20,9 @@ public:
 
 	void addHead(const T& data);
 	void removeHead();
+	void addTail(const T& data);
+
+	FwdList<T> operator*(const FwdList<T>& other) const;
 private:
 	Node<T>* head = nullptr;
 	Node<T>* tail = nullptr;
@@ -70,4 +73,38 @@ inline void FwdList<T>::removeHead()
 		tail = head;
 	delete tmp;
 	--size;
+}
+
+template<typename T>
+inline void FwdList<T>::addTail(const T& data)
+{
+	auto tmp = new Node<T>(data);
+	if (!empty())
+		tail->next = tmp;
+
+	if (empty())
+		head = tmp;
+	tail = tmp;
+	++size;
+}
+
+template<typename T>
+inline FwdList<T> FwdList<T>::operator*(const FwdList<T>& other) const
+{
+	FwdList<T> result;
+	auto tmp = head;
+	while (tmp != nullptr)
+	{
+		auto other_tmp = other.head;
+		while (other_tmp != nullptr)
+		{
+			if (tmp->data == other_tmp->data) {
+				result.addTail(tmp->data);
+				break;
+			}
+			other_tmp = other_tmp->next;
+		}
+		tmp = tmp->next;
+	}
+	return result;
 }
