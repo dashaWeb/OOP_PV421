@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_Singly_linked list", "13
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_double linked list", "14_double linked list\14_double linked list.vcxproj", "{6DF8C257-9748-4956-AE78-899917537F6D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_inheritance", "15_inheritance\15_inheritance.vcxproj", "{267CF334-C542-4700-BFDA-930052FFEB49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{6DF8C257-9748-4956-AE78-899917537F6D}.Release|x64.Build.0 = Release|x64
 		{6DF8C257-9748-4956-AE78-899917537F6D}.Release|x86.ActiveCfg = Release|Win32
 		{6DF8C257-9748-4956-AE78-899917537F6D}.Release|x86.Build.0 = Release|Win32
+		{267CF334-C542-4700-BFDA-930052FFEB49}.Debug|x64.ActiveCfg = Debug|x64
+		{267CF334-C542-4700-BFDA-930052FFEB49}.Debug|x64.Build.0 = Debug|x64
+		{267CF334-C542-4700-BFDA-930052FFEB49}.Debug|x86.ActiveCfg = Debug|Win32
+		{267CF334-C542-4700-BFDA-930052FFEB49}.Debug|x86.Build.0 = Debug|Win32
+		{267CF334-C542-4700-BFDA-930052FFEB49}.Release|x64.ActiveCfg = Release|x64
+		{267CF334-C542-4700-BFDA-930052FFEB49}.Release|x64.Build.0 = Release|x64
+		{267CF334-C542-4700-BFDA-930052FFEB49}.Release|x86.ActiveCfg = Release|Win32
+		{267CF334-C542-4700-BFDA-930052FFEB49}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
