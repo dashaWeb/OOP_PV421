@@ -39,6 +39,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_multi inheritance", "17_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_Diamond Problem", "18_Diamond Problem\18_Diamond Problem.vcxproj", "{AF1F25D2-FDCC-45DA-9852-356ED6D3DFD3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_virtual method", "19_virtual method\19_virtual method.vcxproj", "{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_abstract class", "20_abstract class\20_abstract class.vcxproj", "{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_vector", "21_vector\21_vector.vcxproj", "{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +197,30 @@ Global
 		{AF1F25D2-FDCC-45DA-9852-356ED6D3DFD3}.Release|x64.Build.0 = Release|x64
 		{AF1F25D2-FDCC-45DA-9852-356ED6D3DFD3}.Release|x86.ActiveCfg = Release|Win32
 		{AF1F25D2-FDCC-45DA-9852-356ED6D3DFD3}.Release|x86.Build.0 = Release|Win32
+		{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}.Debug|x64.ActiveCfg = Debug|x64
+		{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}.Debug|x64.Build.0 = Debug|x64
+		{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}.Debug|x86.Build.0 = Debug|Win32
+		{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}.Release|x64.ActiveCfg = Release|x64
+		{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}.Release|x64.Build.0 = Release|x64
+		{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}.Release|x86.ActiveCfg = Release|Win32
+		{0C3FD839-5B2D-4B1D-8554-36A63FBEC76E}.Release|x86.Build.0 = Release|Win32
+		{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}.Debug|x64.ActiveCfg = Debug|x64
+		{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}.Debug|x64.Build.0 = Debug|x64
+		{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}.Debug|x86.Build.0 = Debug|Win32
+		{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}.Release|x64.ActiveCfg = Release|x64
+		{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}.Release|x64.Build.0 = Release|x64
+		{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}.Release|x86.ActiveCfg = Release|Win32
+		{ECC60ABB-1680-4267-8284-6BBDA1FC1C6B}.Release|x86.Build.0 = Release|Win32
+		{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}.Debug|x64.ActiveCfg = Debug|x64
+		{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}.Debug|x64.Build.0 = Debug|x64
+		{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}.Debug|x86.ActiveCfg = Debug|Win32
+		{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}.Debug|x86.Build.0 = Debug|Win32
+		{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}.Release|x64.ActiveCfg = Release|x64
+		{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}.Release|x64.Build.0 = Release|x64
+		{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}.Release|x86.ActiveCfg = Release|Win32
+		{C23792FC-0F63-48ED-B4CC-97EDE69A1E42}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
