@@ -3,6 +3,13 @@
 using std::string;
 using std::cout;
 using std::endl;
+
+__interface IShape
+{
+	double area() const;
+};
+
+
 // interface - пропонує абстрактну поведінку (може містити чисті віртуальні функції)
 
 struct IMove
