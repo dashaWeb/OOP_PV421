@@ -83,11 +83,6 @@ int main()
 			cout << "Exception : " << typeid(ex).name() << "\t Message :: " << ex.what() << endl;
 			cout << "Bad value :: " << ex.getValue() << endl;
 		}*/
-		catch (const exception& ex)
-		{
-			cout << "Exception ****** : " << typeid(ex).name() << "\t Message :: " << ex.what() << endl;
-			//cout << "Bad value :: " << ex.getValue() << endl;
-		}
 		catch (const overflow_error& ex)
 		{
 			cout << "Exception  : " << typeid(ex).name() << "\t Message :: " << ex.what() << endl;
@@ -96,6 +91,11 @@ int main()
 		catch (const underflow_error& ex)
 		{
 			cout << "Exception  : " << typeid(ex).name() << "\t Message :: " << ex.what() << endl;
+			//cout << "Bad value :: " << ex.getValue() << endl;
+		}
+		catch (const exception& ex)
+		{
+			cout << "Exception ****** : " << typeid(ex).name() << "\t Message :: " << ex.what() << endl;
 			//cout << "Bad value :: " << ex.getValue() << endl;
 		}
 		catch (...)

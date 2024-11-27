@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_exception", "24_exceptio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_stl_containers", "25_stl_containers\25_stl_containers.vcxproj", "{8081E637-B5A7-46C4-9E17-8AC46C1847E2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26_stl containers _ forward list _ list _ set _ multiset_ map _ multi map", "26_stl containers _ forward list _ list _ set _ multiset_ map _ multi map\26_stl containers _ forward list _ list _ set _ multiset_ map _ multi map.vcxproj", "{9CFE490A-8ED3-4914-A28B-00A2EA352D68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{8081E637-B5A7-46C4-9E17-8AC46C1847E2}.Release|x64.Build.0 = Release|x64
 		{8081E637-B5A7-46C4-9E17-8AC46C1847E2}.Release|x86.ActiveCfg = Release|Win32
 		{8081E637-B5A7-46C4-9E17-8AC46C1847E2}.Release|x86.Build.0 = Release|Win32
+		{9CFE490A-8ED3-4914-A28B-00A2EA352D68}.Debug|x64.ActiveCfg = Debug|x64
+		{9CFE490A-8ED3-4914-A28B-00A2EA352D68}.Debug|x64.Build.0 = Debug|x64
+		{9CFE490A-8ED3-4914-A28B-00A2EA352D68}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CFE490A-8ED3-4914-A28B-00A2EA352D68}.Debug|x86.Build.0 = Debug|Win32
+		{9CFE490A-8ED3-4914-A28B-00A2EA352D68}.Release|x64.ActiveCfg = Release|x64
+		{9CFE490A-8ED3-4914-A28B-00A2EA352D68}.Release|x64.Build.0 = Release|x64
+		{9CFE490A-8ED3-4914-A28B-00A2EA352D68}.Release|x86.ActiveCfg = Release|Win32
+		{9CFE490A-8ED3-4914-A28B-00A2EA352D68}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

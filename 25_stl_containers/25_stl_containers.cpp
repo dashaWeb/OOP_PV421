@@ -117,10 +117,10 @@ int main()
 	sort(vv.begin(), vv.end());
 	print(vv, "Print Vector");
 	//sort(vv.rbegin(), vv.rend());
-	sort(vv.begin(), vv.end(),greater<int>());
+	sort(vv.begin(), vv.end(), greater<int>());
 	print(vv, "Print Vector");
 	int mult = 2;
-	auto fun = [&](int a, int b)->double{
+	auto fun = [&](int a, int b)->double {
 		double res = (double)a / b;
 		mult = 44;
 		return res * mult;
@@ -154,7 +154,7 @@ int main()
 	while (itColors != colors.end())
 	{
 		cout << *itColors << endl;
-		itColors = find_if(itColors+1, colors.end(), [size](auto s) {return s.size() == size; });
+		itColors = find_if(itColors + 1, colors.end(), [size](auto s) {return s.size() == size; });
 	}
 
 	print(colors, "Colors :: ");
@@ -162,4 +162,25 @@ int main()
 	print(colors, "Colors :: ");
 	sort(colors.begin(), colors.end(), [](auto s1, auto s2) {return s1.size() > s2.size(); });
 	print(colors, "Colors :: ");
+
+
+	system("cls");
+	{
+		vector<int> v(10);
+		for (size_t i = 0; i < v.size(); i++)
+		{
+			v[i] = rand() % 10 + 1;
+		}
+		print(v);
+
+		int value = 5;
+
+		auto it = find(v.begin(), v.end(), value);
+		while (it != v.end())
+		{
+			cout << *it << "\t index --> " << it - v.begin() << endl;
+			it = find(it+1, v.end(), value);
+		}
+	}
+
 }
